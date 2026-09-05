@@ -1,0 +1,85 @@
+.hero{
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),url('/assets/images/liberation-war.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.hero h1{
+  font-size: 4rem;
+  font-weight: 700;
+}
+.custom-btn{
+  background: #1f941fff;
+  color: white;
+}
+.custom-btn:hover{
+  background: #105510ff;
+  color: white;
+}
+.stats{
+  background:#115411ff;
+  color: white;
+}
+.section-title{
+  font-weight: 700;
+  color: #1d851dff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.card img{
+  height: 250px;
+  object-fit: cover;
+}
+.card{
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,.10);
+  transition: .5s;
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+.stats-1{
+  background:#e8eced;
+}
+.form-box{
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.about-img{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+footer{
+  color: white;
+  padding: 30px;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+}
+.archive img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.archive-video{
+  display: block;
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500PX;
+  height: auto;
+  object-fit: cover;
+}
